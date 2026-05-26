@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpha X1 Wireless Headphones</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      font-family: 'Hind Siliguri', sans-serif;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:#050816;
+      overflow-x:hidden;
+    }
+
+    .glow-btn{
+      box-shadow:0 0 20px rgba(168,85,247,.5);
+    }
+
+    .feature-card{
+      background:rgba(255,255,255,0.03);
+      backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.08);
+      transition:.3s;
+    }
+
+    .feature-card:hover{
+      transform:translateY(-6px);
+      border-color:#8b5cf6;
+      box-shadow:0 0 25px rgba(139,92,246,.35);
+    }
+
+    .review-card{
+      background:linear-gradient(145deg,#0f172a,#111827);
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .timer-box{
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.1);
+    }
+
+    .hero-glow{
+      position:absolute;
+      width:300px;
+      height:300px;
+      background:#7c3aed;
+      filter:blur(120px);
+      opacity:.35;
+      border-radius:9999px;
+      z-index:-1;
+    }
+
+    .hero-glow2{
+      position:absolute;
+      width:250px;
+      height:250px;
+      background:#06b6d4;
+      filter:blur(120px);
+      opacity:.25;
+      border-radius:9999px;
+      z-index:-1;
+    }
+  </style>
+</head>
+
+<body class="text-white">
+
+  <!-- HERO SECTION -->
+  <section class="relative min-h-screen flex items-center px-6 lg:px-20 py-16">
+
+    <div class="hero-glow top-10 left-0"></div>
+    <div class="hero-glow2 bottom-0 right-0"></div>
+
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="text-center lg:text-left">
+
+        <div class="inline-block px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 text-sm mb-6">
+          🔥 Premium Gaming Audio Experience
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+          গেমপ্লে হোক আরও রিয়েলিস্টিক —
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
+            আল্ট্রা সাউন্ডের দুনিয়ায় স্বাগতম!
+          </span>
+        </h1>
+
+        <p class="mt-6 text-gray-300 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
+          Alpha X1 Wireless Headphones আপনাকে দেবে প্রিমিয়াম গেমিং সাউন্ড,
+          আল্ট্রা-লো ল্যাটেন্সি এবং RGB গেমিং ভাইব। এখন গেম খেলুন আরও স্মুথ,
+          আরও রিয়েলিস্টিক অনুভূতিতে।
+        </p>
+
+        <div class="mt-8">
+          <a href="#order"
+            class="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-cyan-500 hover:scale-105 transition-all duration-300 px-8 py-4 rounded-xl text-lg font-bold glow-btn">
+            এখনই অর্ডার করুন →
+          </a>
+        </div>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="flex justify-center relative">
+
+        <div class="absolute w-72 h-72 bg-purple-500/30 blur-3xl rounded-full"></div>
+
+        <img
+          src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1200&auto=format&fit=crop"
+          alt="Gaming Headphone"
+          class="relative z-10 w-full max-w-md rounded-3xl border border-white/10 shadow-2xl shadow-purple-500/20"
+        />
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="py-20 px-6 lg:px-20">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-5xl font-extrabold">
+          কেন <span class="text-purple-400">Alpha X1</span> সবার পছন্দ?
+        </h2>
+
+        <p class="text-gray-400 mt-4">
+          গেমিংয়ের জন্য প্রয়োজনীয় সব ফিচার এখন এক হেডফোনেই।
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- CARD -->
+        <div class="feature-card rounded-2xl p-7">
+          <div class="text-5xl mb-5">⚡</div>
+          <h3 class="text-2xl font-bold mb-3">Ultra-low Latency</h3>
+          <p class="text-gray-400">
+            গেমিংয়ের সময় কোনো অডিও ল্যাগ হবে না।
+          </p>
+        </div>
+
+        <!-- CARD -->
+        <div class="feature-card rounded-2xl p-7">
+          <div class="text-5xl mb-5">🔋</div>
+          <h3 class="text-2xl font-bold mb-3">40 Hours Battery</h3>
+          <p class="text-gray-400">
+            একবার চার্জে টানা দুই দিন ব্যাকআপ।
+          </p>
+        </div>
+
+        <!-- CARD -->
+        <div class="feature-card rounded-2xl p-7">
+          <div class="text-5xl mb-5">🎧</div>
+          <h3 class="text-2xl font-bold mb-3">ANC System</h3>
+          <p class="text-gray-400">
+            বাইরের কোনো আওয়াজ গেমিংয়ে ডিস্টার্ব করবে না।
+          </p>
+        </div>
+
+        <!-- CARD -->
+        <div class="feature-card rounded-2xl p-7">
+          <div class="text-5xl mb-5">🌈</div>
+          <h3 class="text-2xl font-bold mb-3">RGB Lights</h3>
+          <p class="text-gray-400">
+            কাস্টমাইজড গেমিং ভাইব এবং প্রিমিয়াম লুক।
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER -->
+  <section class="py-20 px-6 lg:px-20">
+
+    <div class="max-w-5xl mx-auto bg-gradient-to-r from-purple-900/40 to-cyan-900/30 border border-purple-500/20 rounded-3xl p-10 text-center">
+
+      <div class="inline-block px-5 py-2 rounded-full bg-red-500 text-white font-bold mb-6 animate-pulse">
+        🔥 LIMITED TIME OFFER
+      </div>
+
+      <h2 class="text-4xl md:text-6xl font-extrabold">
+        ৫০% ফ্ল্যাট ডিসকাউন্ট
+      </h2>
+
+      <p class="text-gray-300 mt-5 text-lg">
+        অফার শেষ হওয়ার আগেই আপনার অর্ডার কনফার্ম করুন।
+      </p>
+
+      <!-- TIMER -->
+      <div class="flex justify-center gap-4 mt-10 flex-wrap">
+
+        <div class="timer-box rounded-2xl px-7 py-5 min-w-[110px]">
+          <h3 id="hours" class="text-4xl font-extrabold text-cyan-400">00</h3>
+          <p class="text-gray-400 mt-1">Hours</p>
+        </div>
+
+        <div class="timer-box rounded-2xl px-7 py-5 min-w-[110px]">
+          <h3 id="minutes" class="text-4xl font-extrabold text-purple-400">00</h3>
+          <p class="text-gray-400 mt-1">Minutes</p>
+        </div>
+
+        <div class="timer-box rounded-2xl px-7 py-5 min-w-[110px]">
+          <h3 id="seconds" class="text-4xl font-extrabold text-green-400">00</h3>
+          <p class="text-gray-400 mt-1">Seconds</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="py-20 px-6 lg:px-20">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <h2 class="text-3xl md:text-5xl font-extrabold">
+          কাস্টমারদের অভিজ্ঞতা
+        </h2>
+
+        <p class="text-gray-400 mt-4">
+          হাজারো গেমারের পছন্দ এখন Alpha X1
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- REVIEW -->
+        <div class="review-card rounded-2xl p-7">
+          <div class="text-yellow-400 text-xl mb-3">★★★★★</div>
+          <p class="text-gray-300 leading-relaxed">
+            “সাউন্ড কোয়ালিটি অসাধারণ! PUBG খেলতে পুরো রিয়েলিস্টিক ফিল আসে।”
+          </p>
+
+          <div class="mt-5">
+            <h4 class="font-bold text-lg">রাহাত হাসান</h4>
+          </div>
+        </div>
+
+        <!-- REVIEW -->
+        <div class="review-card rounded-2xl p-7">
+          <div class="text-yellow-400 text-xl mb-3">★★★★★</div>
+          <p class="text-gray-300 leading-relaxed">
+            “ব্যাটারি ব্যাকআপ অনেক ভালো। RGB লাইটগুলো দেখতে দারুণ লাগে।”
+          </p>
+
+          <div class="mt-5">
+            <h4 class="font-bold text-lg">মেহেদী রায়হান</h4>
+          </div>
+        </div>
+
+        <!-- REVIEW -->
+        <div class="review-card rounded-2xl p-7">
+          <div class="text-yellow-400 text-xl mb-3">★★★★★</div>
+          <p class="text-gray-300 leading-relaxed">
+            “বিল্ড কোয়ালিটি প্রিমিয়াম। ANC ফিচারটা সত্যিই অসাধারণ কাজ করে।”
+          </p>
+
+          <div class="mt-5">
+            <h4 class="font-bold text-lg">তানভীর ইসলাম</h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ORDER FORM -->
+  <section id="order" class="py-20 px-6 lg:px-20">
+
+    <div class="max-w-3xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 backdrop-blur-lg">
+
+      <div class="text-center mb-10">
+        <h2 class="text-3xl md:text-5xl font-extrabold">
+          Cash on Delivery অর্ডার
+        </h2>
+
+        <p class="text-gray-400 mt-4">
+          নিচের ফর্মটি পূরণ করে আপনার অর্ডার কনফার্ম করুন।
+        </p>
+      </div>
+
+      <form class="space-y-6">
+
+        <div>
+          <label class="block mb-2 text-gray-300">
+            আপনার নাম
+          </label>
+
+          <input
+            type="text"
+            placeholder="আপনার পুরো নাম লিখুন"
+            class="w-full bg-black/40 border border-white/10 focus:border-purple-500 outline-none rounded-xl px-5 py-4 text-white"
+          />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-gray-300">
+            মোবাইল নাম্বার
+          </label>
+
+          <input
+            type="tel"
+            placeholder="01XXXXXXXXX"
+            class="w-full bg-black/40 border border-white/10 focus:border-purple-500 outline-none rounded-xl px-5 py-4 text-white"
+          />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-gray-300">
+            সম্পূর্ণ ঠিকানা
+          </label>
+
+          <textarea
+            rows="4"
+            placeholder="আপনার সম্পূর্ণ ঠিকানা লিখুন"
+            class="w-full bg-black/40 border border-white/10 focus:border-purple-500 outline-none rounded-xl px-5 py-4 text-white resize-none"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-gradient-to-r from-purple-600 to-cyan-500 hover:scale-[1.02] transition-all duration-300 py-4 rounded-xl text-xl font-extrabold glow-btn"
+        >
+          অর্ডার কনফার্ম করুন
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-8 text-center text-gray-500 text-sm">
+    © 2026 Alpha X1 Wireless Headphones — All Rights Reserved.
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+
+    // COUNTDOWN TIMER
+    let totalSeconds = 6 * 60 * 60;
+
+    const hours = document.getElementById('hours');
+    const minutes = document.getElementById('minutes');
+    const seconds = document.getElementById('seconds');
+
+    function updateTimer() {
+
+      const hrs = Math.floor(totalSeconds / 3600);
+      const mins = Math.floor((totalSeconds % 3600) / 60);
+      const secs = totalSeconds % 60;
+
+      hours.innerText = String(hrs).padStart(2, '0');
+      minutes.innerText = String(mins).padStart(2, '0');
+      seconds.innerText = String(secs).padStart(2, '0');
+
+      if(totalSeconds > 0){
+        totalSeconds--;
+      }
+
+    }
+
+    updateTimer();
+    setInterval(updateTimer, 1000);
+
+  </script>
+
+</body>
+</html>
